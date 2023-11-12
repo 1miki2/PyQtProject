@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1444</width>
+    <height>664</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PaintAnalog</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>171</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="stylus">
+       <property name="text">
+        <string>Ручка</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tools</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="brush">
+       <property name="text">
+        <string>Кисть</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tools</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="ruber">
+       <property name="text">
+        <string>Стёрка</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tools</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="sprayButton">
+       <property name="text">
+        <string>Спрей</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tools</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="lineButton">
+       <property name="text">
+        <string>Линия</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tools</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="rectButton">
+       <property name="text">
+        <string>Прямоугольник</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tools</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="fillCheckBox">
+       <property name="text">
+        <string>Заливка фигуры</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="colorButton">
+       <property name="text">
+        <string>Выбор цвета</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="widthButton">
+       <property name="text">
+        <string>Выбор толщины</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="choicePhotos">
+       <property name="text">
+        <string>Загрузить фото</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="saveButton">
+       <property name="text">
+        <string>Сохранить</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="clearButton">
+       <property name="text">
+        <string>Очистить</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="fillColorButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>350</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Заливка</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1444</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="tools"/>
+ </buttongroups>
+</ui>
